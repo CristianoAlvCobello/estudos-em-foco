@@ -1,37 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudos em foco</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header class="p-2 mb-5">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg d-flex justify-content-between align-items-center w-100">
-                <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-                    <img src="https://placehold.co/80x80" alt="Logo">
-                    <span class="fs-5 fw-bold">Estudos em foco</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end mt-3 mt-lg-0" id="navbarNavDropdown">
-                    <ul class="navbar-nav gap-3 fs-5">
-                        <li class="nav-item"><a class="nav-link active" href="#">Página Inicial</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Fundamental</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Médio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Vestibular</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Quem Somos?</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
+<?php include('includes/header.php') ?>
 
+<main>
     <div class="container-fluid px-5"> 
         <div class="row flex-lg-row-reverse justify-content-center align-items-center g-5"> 
             <aside class="col-10 col-sm-8 col-lg-4"> 
@@ -40,7 +9,7 @@
                 </figure>
             </aside> 
             <div class="col-lg-4"> 
-                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-5">Aqui você encontra tudo o que precisa para mandar bem nas provas</h1> 
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-5">Aqui você encontra tudo o que precisa para mandar bem nas provas.</h1> 
                 <div class="d-grid gap-2 justify-content-md-start"> 
                     <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Ver resumos</button> 
                 </div>
@@ -108,8 +77,6 @@
             </article> 
         </article> 
     </div>
+</main>
 
- 
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-</html>
+<?php include('includes/footer.php') ?>
